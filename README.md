@@ -1,6 +1,8 @@
 # pieRemote
 
-A clunky app that turns a web page into a remote control for your computer.
+A clunky app that turns a web page into a remote control for your computer.\
+
+I'll flesh out the documentation / instructions for use at a later time.
 
 ## Web Installation
 
