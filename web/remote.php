@@ -14,7 +14,9 @@ $_SESSION['passcode'] = $passcode;
 <?php print $_SESSION['passcode']; ?>
 </h1>
 
-<script type="text/javascript" src="../jetTouch/jetTouch.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="ajax.js"></script>
+<script type="text/javascript" src="jetTouch.js"></script>
 <script type="text/javascript">
 function addToStack(x) {
 	ajax("GET", "actions.php", "action=put&k="+x+"&passcode=<?php print $_SESSION['passcode']; ?>", function(){}, false);
